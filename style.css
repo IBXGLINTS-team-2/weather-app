@@ -63,6 +63,14 @@ body{
     text-decoration: underline;
     margin: 40px;
 }
+.header-2{
+    color: #007BFF;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+    margin: 40px;
+    margin-top: 0px;
+}
 .row-news{
     margin-bottom: 60px;
 }
@@ -114,10 +122,16 @@ body{
     font-family: 'Oswald', sans-serif;
 }
 
+/* MODIFY UNTUK JS */
+.img-cuaca{
+width: 300px;
+margin-top: -50px;
 
-
-
-/* .col-style{
-    if i want to modify col.
-} */
-
+}
+.header-cuaca{
+ font-weight: bold;
+ text-decoration: underline;
+}
+.txt-cuaca{
+    font-size: 20px;
+}
