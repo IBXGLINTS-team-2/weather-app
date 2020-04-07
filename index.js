@@ -1,9 +1,5 @@
 //const URL = 'http://api.openweathermap.org/data/2.5/weather?q=Jakarta,ID&appid=08c63bb12c5a4132f5d570f08f17872d'
-<<<<<<< HEAD
 // fetch('http://openweathermap.org/img/wn/10d@2x.png')
-=======
-fetch('http://openweathermap.org/img/wn/10d@2x.png')
->>>>>>> c3ab9fc65f4af4592cdd666e98135ad4f7d2be29
 fetch('http://api.openweathermap.org/data/2.5/weather?q=Jakarta,ID&appid=08c63bb12c5a4132f5d570f08f17872d')
     .then(response => {
         return response.json();
