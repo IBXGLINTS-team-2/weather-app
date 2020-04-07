@@ -91,6 +91,8 @@ body{
 .nav-margin2 {
     background-color: #007bff;
     justify-content: center;
+    font-weight: bold;
+    color: white;
 }
 .nav-item {
     color: white;
@@ -99,11 +101,17 @@ body{
     list-style: none;
 }
 .footer-margin {
-    margin: 30px;
+    margin: 20px;
     text-align: center;
 }
 .footer-icon {
     margin-right: 40px;
+}
+.header-footer{
+    padding: 10px;
+    background-color: white;
+    color: #007bff;
+    font-family: 'Oswald', sans-serif;
 }
 
 
