@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 body{
     background-image: url(./img/bg2.jpg);
     background-repeat: no-repeat;
@@ -5,15 +8,25 @@ body{
     background-size: cover;
 }
 .container-fx{
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 190px;
+    margin-right: 190px;
+}
+.container-fx2{
+    margin-left: 120px;
+    margin-right: 120px;
 }
 .navbar{
-    background-color: rgb(185, 241, 223);
+    background-color: #007bff;
 }
 .navbar-brand{
     font-weight: bold;
     font-size: 25px;
+    color: white;
+}
+.navbar-brand:hover{
+    font-weight: bold;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
 }
 .align-1{
     float: right;
@@ -26,16 +39,16 @@ body{
 .link {
     text-decoration: none;
     font-weight: bold;
-    color: #007bff;
+    color: rgb(255, 255, 255);
     font-size: 20px;
     padding: 20px;
 }
 .link:hover {
     text-decoration: none;
     font-weight: bold;
-    background-color:#007bff ;
-    color: rgb(255, 255, 255);
-    font-size: 17px;
+    background-color:#ffffff ;
+    color: #007bff;
+    font-size: 20px;
     padding: 20px;
 }
 .img-utama{
@@ -50,6 +63,52 @@ body{
     text-decoration: underline;
     margin: 40px;
 }
+.row-news{
+    margin-bottom: 60px;
+}
+.img-news{
+    width: 100%;
+    height: 250px;
+}
+.header-news{
+    font-size: 35px;
+    font-weight: bold;
+    color: rgb(22, 22, 22);
+}
+.badge{
+    font-size: 25px;
+    padding: 15px;
+    background-color: #007bff;
+    color: white;
+    margin-top: 20px;
+}
+.badge:hover{
+    background-color: rgb(22, 22, 22);
+    color: white;
+}
+
+/* FOOTER */
+.nav-margin2 {
+    background-color: #007bff;
+    justify-content: center;
+}
+.nav-item {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    list-style: none;
+}
+.footer-margin {
+    margin: 30px;
+    text-align: center;
+}
+.footer-icon {
+    margin-right: 40px;
+}
+
+
+
+
 /* .col-style{
     if i want to modify col.
 } */
